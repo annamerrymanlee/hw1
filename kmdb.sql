@@ -136,7 +136,8 @@ id INTEGER PRIMARY KEY AUTOINCREMENT,
 
 -- Insert data into your database that reflects the sample data shown above
 -- Use hard-coded foreign key IDs when necessary
--- TODO!
+
+INSERT
 
 -- Prints a header for the movies output
 .print "Movies"
