@@ -323,20 +323,14 @@ INSERT INTO Top_Cast (
 );
 
 -- Prints a header for the movies output
-.print "Movies"
-.print "title"
-.print "year_released"
-.print "rating"
-.print "production_company"
+.print "Movies";
 
 -- The SQL statement for the movies output
--- TODO!
+SELECT * FROM Movies;
 
 -- Prints a header for the cast output
-.print "Top Cast"
-.print "title"
-.print "actor"
-.print "character
+.print "Top Cast";
 
 -- The SQL statement for the cast output
--- TODO!
+
+SELECT * FROM Top_Cast;
